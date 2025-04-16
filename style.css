@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ff6f00, #ffe082);
+  color: #3e2723;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #4e342e;
+  font-size: 2em;
+  text-shadow: 1px 1px 2px rgba(255, 204, 128, 0.6);
+}
+
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: rgba(255, 248, 225, 0.95); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+caption {
+  background-color: #ffe0b2;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 1.2em;
+  color: #bf360c;
+  text-shadow: 1px 1px 1px #fff3e0;
+}
+
+th, td {
+  padding: 14px 10px;
+  text-align: center;
+  border: 1px solid #ffe0b2;
+}
+
+th {
+  background-color: #ff8f00;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #fff3e0;
+}
+
+tr:hover {
+  background-color: #ffe0b2;
+  transition: background-color 0.3s ease;
+}
+
+img.album-cover {
+  display: block;
+  margin: 30px auto 10px;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
